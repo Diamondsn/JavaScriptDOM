@@ -18,6 +18,7 @@ if(typeof XMLHttpRequest=="undefined"){
     catch(e){
 
     }
+    return false;
 }
     return new XMLHttpRequest;
 }

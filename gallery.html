@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>gallery</title>
+    <link rel="stylesheet" href="styles/layout.css" type="text/css" />
+</head>
+
+<body>
+    <h1>SnapShots</h1>
+    <ul>
+        <li>
+            <a href="images/1.jpg" title="1jpg" onclick="showPic(this);return false;">1</a>
+        </li>
+        <li>
+            <a href="images/2.jpg" title="2jpg" onclick="showPic(this);return false;">2</a>
+        </li>
+        <li>
+            <a href="images/3.jpg" title="3jpg" onclick="showPic(this);return false;">3</a>
+        </li>
+        <li>
+            <a href="images/4.jpg" title="4jpg" onclick="showPic(this);return false;">4</a>
+        </li>
+    </ul>
+    <img id="placeholder" src="images/placeholder.jpg" alt="my photo" />
+    <p id="description">Wait.</p>
+    <script src="showPic.js"></script>
+</body>
+
+</html>
